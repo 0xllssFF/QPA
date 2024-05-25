@@ -1,0 +1,45 @@
+{
+  "eval_config": {
+      "dataset": "mnist",
+      "attack": "boundary",
+      "mode": "untargeted",
+      "architecture": "lenet5",
+      "dataset_path": "/home/lsf/BlackBox/ccs_23_oars_stateful_attacks/data/mnist/train",
+      "anomaly_rate": 0.01,
+      "init_num": 1000
+  },
+
+  "blacklight_config": {
+    "type": "blacklight",
+    "threshold": 25,
+    "window_size": 10,
+    "num_hashes_keep": 50,
+    "round": 50,
+    "step_size": 25,
+    "num_processes": 5,
+    "salt": true,
+    "input_shape": [
+      1,
+      32,
+      32
+    ]
+  },
+  "piha_config": {
+  },
+  "qpa_config": {
+    "type": "QPA",
+    "input_shape": [
+      1,
+      32,
+      32
+    ],
+    "threshold": 25,
+    "window_size": 10,
+    "num_hashes_keep": 50,
+    "round": 50,
+    "step_size": 25,
+    "num_processes": 5,
+    "salt": true,
+    "model_path": "/home/lsf/BlackBox/QPA/graph_model_mnist.pt" 
+  }
+}

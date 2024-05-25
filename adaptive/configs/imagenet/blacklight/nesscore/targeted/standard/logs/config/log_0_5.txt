@@ -1,0 +1,27 @@
+INFO:root:Namespace(disable_logging=False, config='configs/imagenet/blacklight/nesscore/targeted/standard/config.json', num_images=5, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.5, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'closest', 'action': 'rejection', 'precision': None, 'state': {'type': 'blacklight', 'window_size': 50, 'num_hashes_keep': 50, 'round': 50, 'step_size': 25, 'num_processes': 5, 'input_shape': [3, 224, 224], 'salt': True}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'NESScore', 'targeted': True, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 50, 'var': 0.001, 'step_size': 0.01, 'min_step_size': 5e-05, 'momentum': 0.9, 'plateau_length': 5, 'plateau_drop': 2, 'budget': 100000, 'adaptive': {'num_accounts': 1, 'query_blinding_transform': None, 'grad_max_attempts': 1, 'bs_grad_var': False, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.1, 'bs_grad_var_upper': 0.5, 'bs_grad_var_lower': 1e-05, 'grad_est_accept_partial': False, 'step_max_attempts': 1, 'bs_min_ss': False, 'bs_min_ss_steps': 20, 'bs_min_ss_sample_size': 20, 'bs_min_ss_hit_rate': 0.05, 'bs_min_ss_upper': 1, 'bs_min_ss_lower': 5e-05}}
+INFO:root:True Label : 532 | Predicted Label : 532 | Cache Hits / Total Queries : 25 / 27
+INFO:root:True Label : 582 | Predicted Label : 582 | Cache Hits / Total Queries : 25 / 27
+INFO:root:True Label : 353 | Predicted Label : 353 | Cache Hits / Total Queries : 25 / 27
+INFO:root:True Label : 707 | Predicted Label : 707 | Cache Hits / Total Queries : 25 / 27
+INFO:root:True Label : 671 | Predicted Label : 671 | Cache Hits / Total Queries : 25 / 27
+INFO:root:FINISHED
+INFO:root:Namespace(disable_logging=False, config='configs/imagenet/blacklight/nesscore/targeted/standard/config.json', num_images=5, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.5, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'closest', 'action': 'rejection', 'precision': None, 'state': {'type': 'blacklight', 'window_size': 50, 'num_hashes_keep': 50, 'round': 50, 'step_size': 25, 'num_processes': 5, 'input_shape': [3, 224, 224], 'salt': True}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'NESScore', 'targeted': True, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 50, 'var': 0.001, 'step_size': 0.01, 'min_step_size': 5e-05, 'momentum': 0.9, 'plateau_length': 5, 'plateau_drop': 2, 'budget': 100000, 'adaptive': {'num_accounts': 1, 'query_blinding_transform': None, 'grad_max_attempts': 1, 'bs_grad_var': False, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.1, 'bs_grad_var_upper': 0.5, 'bs_grad_var_lower': 1e-05, 'grad_est_accept_partial': False, 'step_max_attempts': 1, 'bs_min_ss': False, 'bs_min_ss_steps': 20, 'bs_min_ss_sample_size': 20, 'bs_min_ss_hit_rate': 0.05, 'bs_min_ss_upper': 1, 'bs_min_ss_lower': 5e-05}}
+INFO:root:True Label : 532 | Predicted Label : 532 | Cache Hits / Total Queries : 25 / 27
+INFO:root:True Label : 582 | Predicted Label : 582 | Cache Hits / Total Queries : 25 / 27
+INFO:root:True Label : 353 | Predicted Label : 353 | Cache Hits / Total Queries : 25 / 27
+INFO:root:True Label : 707 | Predicted Label : 707 | Cache Hits / Total Queries : 25 / 27
+INFO:root:True Label : 671 | Predicted Label : 671 | Cache Hits / Total Queries : 25 / 27
+INFO:root:FINISHED
+INFO:root:Namespace(disable_logging=False, config='configs/imagenet/blacklight/nesscore/targeted/standard/config.json', num_images=5, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.5, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'closest', 'action': 'rejection', 'precision': None, 'state': {'type': 'blacklight', 'window_size': 50, 'num_hashes_keep': 50, 'round': 50, 'step_size': 25, 'num_processes': 5, 'input_shape': [3, 224, 224], 'salt': True}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'NESScore', 'targeted': True, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 50, 'var': 0.001, 'step_size': 0.01, 'min_step_size': 5e-05, 'momentum': 0.9, 'plateau_length': 5, 'plateau_drop': 2, 'budget': 100000, 'adaptive': {'num_accounts': 1, 'query_blinding_transform': None, 'grad_max_attempts': 1, 'bs_grad_var': False, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.1, 'bs_grad_var_upper': 0.5, 'bs_grad_var_lower': 1e-05, 'grad_est_accept_partial': False, 'step_max_attempts': 1, 'bs_min_ss': False, 'bs_min_ss_steps': 20, 'bs_min_ss_sample_size': 20, 'bs_min_ss_hit_rate': 0.05, 'bs_min_ss_upper': 1, 'bs_min_ss_lower': 5e-05}}
+INFO:root:True Label : 532 | Predicted Label : 532 | Cache Hits / Total Queries : 25 / 27
+INFO:root:True Label : 582 | Predicted Label : 582 | Cache Hits / Total Queries : 25 / 27
+INFO:root:True Label : 353 | Predicted Label : 353 | Cache Hits / Total Queries : 25 / 27
+INFO:root:True Label : 707 | Predicted Label : 707 | Cache Hits / Total Queries : 25 / 27
+INFO:root:True Label : 671 | Predicted Label : 671 | Cache Hits / Total Queries : 25 / 27
+INFO:root:FINISHED

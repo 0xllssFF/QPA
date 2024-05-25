@@ -1,0 +1,44 @@
+{
+  "model_config": {
+    "threshold": 0.5,
+    "add_cache_hit": true,
+    "reset_cache_on_hit": false,
+    "aggregation": "closest",
+    "action": "rejection",
+    "precision": null,
+    "state": {
+      "type": "no_op",
+      "input_shape": [
+        1,
+        32,
+        32
+      ]
+    },
+    "architecture": "lenet5",
+    "dataset": "mnist"
+  },
+  "attack_config": {
+    "attack": "Square",
+    "targeted": false,
+    "max_iter": 50000,
+    "p_init": 0.05,
+    "eps": 2,
+    "budget": 50000,
+    "adaptive": {
+      "query_blinding_transform": null,
+      "bs_num_squares": false,
+      "bs_num_squares_lower": 10,
+      "bs_num_squares_upper": 100,
+      "bs_num_squares_steps": 10,
+      "bs_num_squares_sample_size": 5,
+      "bs_num_squares_hit_rate": 0,
+      "max_step_attempts": 1,
+      "bs_min_square_size": false,
+      "bs_min_square_size_lower": 1,
+      "bs_min_square_size_upper": 32,
+      "bs_min_square_size_steps": 10,
+      "bs_min_square_size_sample_size": 10,
+      "bs_min_square_size_hit_rate": 0.5
+    }
+  }
+}

@@ -1,0 +1,36 @@
+INFO:root:Namespace(disable_logging=False, config='configs/imagenet/blacklight/hsja/targeted/standard/config.json', num_images=5, start_idx=50, log_dir=None)
+INFO:root:{'threshold': 0.5, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'closest', 'action': 'rejection', 'precision': None, 'state': {'type': 'blacklight', 'window_size': 50, 'num_hashes_keep': 50, 'round': 50, 'step_size': 25, 'num_processes': 5, 'input_shape': [3, 224, 224], 'salt': True}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': True, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': True, 'grad_max_attempts': 1, 'bs_grad_var': False, 'bs_grad_var_steps': 20, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 0.001, 'grad_est_accept_partial': False, 'step_max_attempts': 1, 'bs_min_ss': False, 'bs_min_ss_steps': 20, 'bs_min_ss_sample_size': 20, 'bs_min_ss_hit_rate': 0.05, 'bs_min_ss_upper': 1, 'bs_min_ss_lower': 5e-05}}
+INFO:root:True Label : 255 | Predicted Label : 255 | Cache Hits / Total Queries : 1 / 7
+INFO:root:True Label : 782 | Predicted Label : 782 | Cache Hits / Total Queries : 1 / 7
+INFO:root:True Label : 303 | Predicted Label : 303 | Cache Hits / Total Queries : 1 / 7
+INFO:root:True Label : 325 | Predicted Label : 325 | Cache Hits / Total Queries : 1 / 8
+INFO:root:True Label : 189 | Predicted Label : 189 | Cache Hits / Total Queries : 1 / 8
+INFO:root:FINISHED
+INFO:root:Namespace(disable_logging=False, config='configs/imagenet/blacklight/hsja/targeted/standard/config.json', num_images=5, start_idx=50, log_dir=None)
+INFO:root:{'threshold': 0.5, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'closest', 'action': 'rejection', 'precision': None, 'state': {'type': 'blacklight', 'window_size': 50, 'num_hashes_keep': 50, 'round': 50, 'step_size': 25, 'num_processes': 5, 'input_shape': [3, 224, 224], 'salt': True}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': True, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': True, 'grad_max_attempts': 1, 'bs_grad_var': False, 'bs_grad_var_steps': 20, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 0.001, 'grad_est_accept_partial': False, 'step_max_attempts': 1, 'bs_min_ss': False, 'bs_min_ss_steps': 20, 'bs_min_ss_sample_size': 20, 'bs_min_ss_hit_rate': 0.05, 'bs_min_ss_upper': 1, 'bs_min_ss_lower': 5e-05}}
+INFO:root:True Label : 255 | Predicted Label : 255 | Cache Hits / Total Queries : 1 / 7
+INFO:root:True Label : 782 | Predicted Label : 782 | Cache Hits / Total Queries : 1 / 7
+INFO:root:True Label : 303 | Predicted Label : 303 | Cache Hits / Total Queries : 1 / 7
+INFO:root:True Label : 325 | Predicted Label : 325 | Cache Hits / Total Queries : 1 / 8
+INFO:root:True Label : 189 | Predicted Label : 189 | Cache Hits / Total Queries : 1 / 8
+INFO:root:FINISHED
+INFO:root:Namespace(disable_logging=False, config='configs/imagenet/blacklight/hsja/targeted/standard/config.json', num_images=5, start_idx=50, log_dir=None)
+INFO:root:{'threshold': 0.5, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'closest', 'action': 'rejection', 'precision': None, 'state': {'type': 'blacklight', 'window_size': 50, 'num_hashes_keep': 50, 'round': 50, 'step_size': 25, 'num_processes': 5, 'input_shape': [3, 224, 224], 'salt': True}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': True, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': True, 'grad_max_attempts': 1, 'bs_grad_var': False, 'bs_grad_var_steps': 20, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 0.001, 'grad_est_accept_partial': False, 'step_max_attempts': 1, 'bs_min_ss': False, 'bs_min_ss_steps': 20, 'bs_min_ss_sample_size': 20, 'bs_min_ss_hit_rate': 0.05, 'bs_min_ss_upper': 1, 'bs_min_ss_lower': 5e-05}}
+INFO:root:True Label : 255 | Predicted Label : 255 | Cache Hits / Total Queries : 1 / 7
+INFO:root:True Label : 782 | Predicted Label : 782 | Cache Hits / Total Queries : 1 / 7
+INFO:root:True Label : 303 | Predicted Label : 303 | Cache Hits / Total Queries : 1 / 7
+INFO:root:True Label : 325 | Predicted Label : 325 | Cache Hits / Total Queries : 1 / 8
+INFO:root:True Label : 189 | Predicted Label : 189 | Cache Hits / Total Queries : 1 / 8
+INFO:root:FINISHED
+INFO:root:Namespace(disable_logging=False, config='configs/imagenet/blacklight/hsja/targeted/standard/config.json', num_images=5, start_idx=50, log_dir=None)
+INFO:root:{'threshold': 0.5, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'closest', 'action': 'rejection', 'precision': None, 'state': {'type': 'blacklight', 'window_size': 50, 'num_hashes_keep': 50, 'round': 50, 'step_size': 25, 'num_processes': 5, 'input_shape': [3, 224, 224], 'salt': True}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': True, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': True, 'grad_max_attempts': 1, 'bs_grad_var': False, 'bs_grad_var_steps': 20, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 0.001, 'grad_est_accept_partial': False, 'step_max_attempts': 1, 'bs_min_ss': False, 'bs_min_ss_steps': 20, 'bs_min_ss_sample_size': 20, 'bs_min_ss_hit_rate': 0.05, 'bs_min_ss_upper': 1, 'bs_min_ss_lower': 5e-05}}
+INFO:root:True Label : 255 | Predicted Label : 255 | Cache Hits / Total Queries : 1 / 7
+INFO:root:True Label : 782 | Predicted Label : 782 | Cache Hits / Total Queries : 1 / 7
+INFO:root:True Label : 303 | Predicted Label : 303 | Cache Hits / Total Queries : 1 / 7
+INFO:root:True Label : 325 | Predicted Label : 325 | Cache Hits / Total Queries : 1 / 8
+INFO:root:True Label : 189 | Predicted Label : 189 | Cache Hits / Total Queries : 1 / 8
+INFO:root:FINISHED

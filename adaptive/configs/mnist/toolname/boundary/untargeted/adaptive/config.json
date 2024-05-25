@@ -1,0 +1,44 @@
+{
+  "model_config": {
+    "threshold": 0.5,
+    "add_cache_hit": true,
+    "reset_cache_on_hit": false,
+    "aggregation": "graph",
+    "action": "rejection",
+    "precision": null,
+    "state": {
+      "type": "toolname",
+      "window_size": 10,
+      "num_hashes_keep": 50,
+      "round": 50,
+      "step_size": 1,
+      "num_processes": 5,
+      "model_path": "/home/lsf/BlackBox/ccs_23_oars_stateful_attacks/graph/graph_model_mnist.pt",
+      "input_shape": [
+        1,
+        32,
+        32
+      ],
+      "salt": true
+    },
+    "architecture": "lenet5",
+    "dataset": "mnist"
+  },
+  "attack_config": {
+    "attack": "Boundary",
+    "targeted": false,
+    "nb_classes": 10,
+    "max_iter": 99999999,
+    "eps": 0.1,
+    "num_dirs": 100,
+    "max_num_dirs": 10000,
+    "budget": 100000,
+    "adaptive": {
+      "init_bypass_rejects": true,
+      "delta_adjust_rejected_predictions": true,
+      "eps_adjust_rejected_predictions": true,
+      "delta_extraction": true,
+      "eps_extraction": true
+    }
+  }
+}

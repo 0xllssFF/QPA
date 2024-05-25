@@ -1,0 +1,47 @@
+{
+  "eval_config": {
+      "dataset": "imagenet",
+      "attack": "surfree",
+      "mode": "untargeted",
+      "architecture": "resnet152",
+      "dataset_path": "/home/lsf/BlackBox/data/ImageNet",
+      "anomaly_rate": 0.01,
+      "init_num": 100
+  },
+
+  "blacklight_config": {
+    "type": "blacklight",
+    "threshold": 25,
+    "window_size": 50,
+    "num_hashes_keep": 50,
+    "round": 50,
+    "step_size": 25,
+    "num_processes": 5,
+    "salt": true,
+    "input_shape": [
+      3,
+      224,
+      224
+    ]
+  },
+  "piha_config": {
+    "type": "PIHA",
+    "threshold": 0.2,
+    "block_size": 7,
+    "input_shape": [
+      3,
+      224,
+      224
+    ]
+  },
+  "qpa_config": {
+    "type": "QPA",
+    "input_shape": [
+      3,
+      224,
+      224
+    ],
+    "block_size": 7,
+    "model_path": "/home/lsf/BlackBox/QPA/graph_model_imagenet.pt" 
+  }
+}
