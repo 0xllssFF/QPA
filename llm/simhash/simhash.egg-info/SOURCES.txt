@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+simhash/__init__.py
+simhash.egg-info/PKG-INFO
+simhash.egg-info/SOURCES.txt
+simhash.egg-info/dependency_links.txt
+simhash.egg-info/requires.txt
+simhash.egg-info/top_level.txt
+tests/test_simhash.py
